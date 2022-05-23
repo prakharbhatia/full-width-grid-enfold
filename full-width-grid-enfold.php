@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Full Width Grid Row for Enfold
  * Plugin URI:        https://nandann.com
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       This plugins adds a functionality to add custom padding to grid items so that they can be aligned within a set size maintaining option to use full screen background in Enfold theme.
  * Version:           1.0.0
  * Author:            Prakhar Bhatia
  * Author URI:        https://nandann.com
@@ -30,18 +30,5 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-/**
- * Currently plugin version.
- * Start at version 1.0.0 and use SemVer - https://semver.org
- * Rename this for your plugin and update it as you release new versions.
- */
-define( 'FULL_WIDTH_GRID_ENFOLD_VERSION', '1.0.0' );
-
-
-
-/**
- * The core plugin class that is used to define internationalization,
- * admin-specific hooks, and public-facing site hooks.
- */
 require plugin_dir_path( __FILE__ ) . 'public/class-full-width-grid-enfold-public.php';
-
+?>
