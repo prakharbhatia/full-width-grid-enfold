@@ -9,7 +9,7 @@
  * that starts the plugin.
  *
  * @link              https://nandann.com
- * @since             1.0.0
+ * @since             1.0.1
  * @package           Full_Width_Grid_Enfold
  *
  * @wordpress-plugin
